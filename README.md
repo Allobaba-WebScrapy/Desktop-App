@@ -25,8 +25,11 @@ This project is a robust desktop application built with Electron, React, Vite, T
 > A utility-first CSS framework for rapidly building custom user interfaces.
 
 > [!IMPORTANT]
+>
 > ## Getting Started
+>
 > First, clone the repository:
+
 ```bash
 git clone https://github.com/Allobaba-WebScrapy/Desktop-App.git
 cd Desktop-App
@@ -34,8 +37,8 @@ npm install
 npm run electron:dev
 ```
 
-> [!NOTE] 
+> [!NOTE]
+>
 > ## Web Version
-> You can also see a web version of this application by visiting `localhost:3000` in your web browser. Please make sure the application is running locally before you try to access the web version.
-
-
+>
+> You can also see a web version of this application by visiting [`localhost:3000`](http://localhost:3000) in your web browser. Please make sure the application is running locally before you try to access the web version.
