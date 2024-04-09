@@ -1,5 +1,6 @@
 # Electron + React + Vite + TypeScript + Tailwind CSS Desktop Application
 
+<<<<<<< HEAD
 This project is a robust desktop application built with Electron, React, Vite, TypeScript, and Tailwind CSS. It provides a modern, scalable, and high-performance foundation for building powerful desktop applications.
 
 ## Features
@@ -27,3 +28,6 @@ License
 This project is licensed under the MIT License.
 
 ```
+=======
+
+>>>>>>> 2ff591b97689197b0b16f548c226c61c6d2ca433
