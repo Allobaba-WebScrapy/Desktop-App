@@ -4,19 +4,24 @@ This project is a robust desktop application built with Electron, React, Vite, T
 
 ## Features
 
-> [!NOTE]\ **Electron**: 
+> [!NOTE]\
+> **Electron**:
 > Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 
-> [!NOTE]\ **React**: 
+> [!NOTE]\
+> **React**:
 > A JavaScript library for building user interfaces.
 
-> [!NOTE]\ **Vite**: 
+> [!NOTE]\
+> **Vite**:
 > An opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production.
 
-> [!NOTE]\ **TypeScript**: 
+> [!NOTE]\
+> **TypeScript**:
 > A typed superset of JavaScript that compiles to plain JavaScript.
 
-> [!NOTE]\ **Tailwind CSS**: 
+> [!NOTE]\
+> **Tailwind CSS**:
 > A utility-first CSS framework for rapidly building custom user interfaces.
 
 ## Getting Started
