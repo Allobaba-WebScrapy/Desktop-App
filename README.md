@@ -4,30 +4,29 @@ This project is a robust desktop application built with Electron, React, Vite, T
 
 ## Features
 
-> [!Electron]\
+> [!TIP]\
 > **Electron**:
 > Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 
-> [!NOTE]\
+> [!TIP]\
 > **React**:
 > A JavaScript library for building user interfaces.
 
-> [!NOTE]\
+> [!TIP]\
 > **Vite**:
 > An opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production.
 
-> [!NOTE]\
+> [!TIP]\
 > **TypeScript**:
 > A typed superset of JavaScript that compiles to plain JavaScript.
 
-> [!NOTE]\
+> [!TIP]\
 > **Tailwind CSS**:
 > A utility-first CSS framework for rapidly building custom user interfaces.
 
-## Getting Started
-
-First, clone the repository:
-
+> [!IMPORTANT]
+> ## Getting Started
+> First, clone the repository:
 ```bash
 git clone https://github.com/Allobaba-WebScrapy/Desktop-App.git
 cd Desktop-App
