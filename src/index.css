@@ -1,0 +1,200 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  :root {
+    --background: 0 0% 97%;
+    --foreground: 20 14.3% 4.1%;
+    --card: 0 0% 100%;
+    --card-foreground: 20 14.3% 4.1%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 14.3% 4.1%;
+    --primary: 47.9 95.8% 53.1%;
+    --primary-foreground: 26 83.3% 14.1%;
+    --secondary: 60 4.8% 95.9%;
+    --secondary-foreground: 24 9.8% 10%;
+    --muted: 60 4.8% 95.9%;
+    --muted-foreground: 25 5.3% 44.7%;
+    --accent: 60 4.8% 95.9%;
+    --accent-foreground: 24 9.8% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 20 5.9% 90%;
+    --input: 20 5.9% 90%;
+    --ring: 20 14.3% 4.1%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 20 14.3% 4.1%;
+    --foreground: 60 9.1% 97.8%;
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+    --popover: 20 14.3% 4.1%;
+    --popover-foreground: 60 9.1% 97.8%;
+    --primary: 47.9 95.8% 53.1%;
+    --primary-foreground: 26 83.3% 14.1%;
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+    --accent: 12 6.5% 15.1%;
+    --accent-foreground: 60 9.1% 97.8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: 12 6.5% 15.1%;
+    --input: 12 6.5% 15.1%;
+    --ring: 35.5 91.7% 32.9%;
+  }
+}
+
+
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+/* --------------------------------- */
+
+.cards {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  height: 400px;
+  width: 325px;
+  perspective: 1000px;
+}
+
+.card {
+  padding-top: 120px;
+  transform-style: preserve-3d;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+  box-shadow: #d8d530 0px 0px 20px -5px;
+}
+
+.card:hover {
+  background-position: 80% 20%;
+  transform: rotate3d(0.5, 1, 0, 20deg);
+}
+
+.content-box {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.811);
+  border-radius: 0px 0px 10px 10px;
+  transition: all 0.5s ease-in-out;
+  padding: 50px 25px 25px 25px;
+  transform-style: preserve-3d;
+  opacity: 0;
+}
+
+.card:hover .content-box {
+  opacity: 1;
+}
+
+.content-box .card-title {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  transition: all 1.5s ease-in-out;
+  opacity: 0;
+}
+
+.content-box .card-title:hover {
+  transform: translate3d(0px, 0px, 25px);
+}
+
+.card:hover .content-box .card-title {
+  opacity: 1;
+}
+
+.content-box .card-content {
+  padding-top: 20px;
+  font-size: 12px;
+  color: #b9b9b9;
+  transition: all 1.5s ease-in-out;
+  opacity: 0;
+}
+
+.content-box .card-content:hover {
+  transform: translate3d(0px, 0px, 25px);
+}
+
+.card:hover .content-box .card-content {
+  opacity: 1;
+}
+
+/* .content-box .see-more {
+    margin-top: 18px;
+    display: block;
+    width: 100px;
+    height: 26px;
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 10px);
+    border: #f0ec04 solid 1px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: #f0ec04 0px 0px 5px;
+    
+}
+.content-box .see-more:hover {
+    transform: translate3d(0px, 0px, 50px);
+} */
+
+
+/* --------------------------Hidden Password Code------------------------------ */
+.hidden-password {
+  font-family: text-security-disc;
+  -webkit-text-security: disc;
+}
+
+/* --------------------------Custom Scrollbar Code------------------------------ */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(39, 39, 42);
+  border: 2px solid transparent; /* Add this line */
+  background-clip: content-box; /* Add this line */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
