@@ -1,30 +1,29 @@
-# React + TypeScript + Vite
+# Electron + React + Vite + TypeScript + Tailwind CSS Desktop Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a robust desktop application built with Electron, React, Vite, TypeScript, and Tailwind CSS. It provides a modern, scalable, and high-performance foundation for building powerful desktop applications.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Electron**: Build cross-platform desktop apps with JavaScript, HTML, and CSS.
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: An opinionated web dev build tool that serves your code via native ES Module imports during dev and bundles it with Rollup for production.
+- **TypeScript**: A typed superset of JavaScript that compiles to plain JavaScript.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom user interfaces.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+First, clone the repository:
 
-- Configure the top-level `parserOptions` property like this:
+```bash
+git clone https://github.com/Allobaba-WebScrapy/Desktop-App.git
+cd Desktop-App
+npm install
+npm run electron:dev
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Contributing
+Contributions are welcome! Please read our Contributing Guidelines for more information.
+
+License
+This project is licensed under the MIT License.
+
 ```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
