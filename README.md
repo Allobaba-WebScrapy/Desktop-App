@@ -4,7 +4,7 @@ This project is a robust desktop application built with Electron, React, Vite, T
 
 ## Features
 
-> [!NOTE]\
+> [!Electron]\
 > **Electron**:
 > Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 
