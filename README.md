@@ -41,4 +41,4 @@ npm run electron:dev
 >
 > ## Web Version
 >
-> You can also see a web version of this application by visiting [`localhost:3000`](http://localhost:3000) in your web browser. Please make sure the application is running locally before you try to access the web version.
+> You can also see a web version of this application by visiting <a href="http://localhost:3000" target="_blank">localhost:3000</a> in your web browser. Please make sure the application is running locally before you try to access the web version.
