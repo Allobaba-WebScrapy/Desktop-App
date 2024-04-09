@@ -19,11 +19,4 @@ git clone https://github.com/Allobaba-WebScrapy/Desktop-App.git
 cd Desktop-App
 npm install
 npm run electron:dev
-
-Contributing
-Contributions are welcome! Please read our Contributing Guidelines for more information.
-
-License
-This project is licensed under the MIT License.
-
 ```
