@@ -1,5 +1,4 @@
-![Alt text](./public/icon.png)
-# Electron + React + Vite + TypeScript + Tailwind CSS Desktop Application
+# <img src="./public/icon.png" alt="Alt text" width="200"/> Electron + React + Vite + TypeScript + Tailwind CSS Desktop Application
 
 This project is a robust desktop application built with Electron, React, Vite, TypeScript, and Tailwind CSS. It provides a modern, scalable, and high-performance foundation for building powerful desktop applications.
 
