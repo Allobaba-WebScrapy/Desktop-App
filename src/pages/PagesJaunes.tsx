@@ -1,7 +1,6 @@
 import React from "react";
 import CarsTable from "@/components/global/pagesJaunes/CardsTable";
 import { SearchForm } from "@/components/global/pagesJaunes/SearchForm";
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { Toaster } from "@/components/ui/toaster";
 import { addOldRequest, setError, setRequestData, scrapData } from "@/state/pagesJaunes/PagesJaunesSlice";
 import { AppDispatch, RootState } from "@/state/store";
