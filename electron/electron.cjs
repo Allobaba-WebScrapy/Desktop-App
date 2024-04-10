@@ -1,6 +1,5 @@
 const path = require("path");
 const { app, BrowserWindow, shell } = require("electron");
-
 // "To Start" => "npm run electron:dev"
 
 const isDev = process.env.IS_DEV == "true" ? true : false;
