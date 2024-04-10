@@ -1,7 +1,9 @@
 {
-  "name": "web-client",
-  "private": true,
+  "name": "scrapy",
   "version": "1.0.0",
+  "description": "A web scraping application designed to extract data from three specific websites.",
+  "author": "KAMADO",
+  "private": true,
   "type": "module",
   "main": "electron/electron.cjs",
   "scripts": {
@@ -60,6 +62,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.18",
     "electron": "^29.2.0",
+    "electron-builder": "^24.13.3",
     "eslint": "^8.56.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
